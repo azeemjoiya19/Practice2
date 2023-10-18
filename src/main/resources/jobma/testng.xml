@@ -1,0 +1,14 @@
+<suite name = "jobma automation test suite">
+<test name = "JObmaWebTesting">
+<classes>
+<class name = "com.jobma.qa.test.ScheduleInterviewPageTest"></class>
+<class name = "com.jobma.qa.test.LoginPageTest"></class>
+<class name = "com.jobma.qa.test.JobmaDashboardTest"></class>
+<class name = "com.jobma.qa.test.InterviewKitListingTest"></class>
+<class name = "com.jobma.qa.test.AddNewInterviewKitPageTest"></class>
+<class name = "com.jobma.qa.test.PostAJobTest"></class>
+<class name = "com.jobma.qa.test.QuestionLibraryTestTest"></class>
+</classes>
+
+</test>
+</suite>

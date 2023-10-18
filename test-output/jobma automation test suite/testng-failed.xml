@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [jobma automation test suite]">
+  <test thread-count="5" name="JObmaWebTesting(failed)">
+    <classes>
+      <class name="com.jobma.qa.test.AddNewInterviewKitPageTest">
+        <methods>
+          <include name="clickOnDeleteBtnOnQuestionTest"/>
+          <include name="close"/>
+          <include name="clickEditBtnOnKitTest"/>
+          <include name="firstKitTest"/>
+          <include name="selectOptionalCheckBoxTest"/>
+          <include name="editWelcomeNoteBtnTest"/>
+          <include name="addMediaBtnWelcomeNoteTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.AddNewInterviewKitPageTest -->
+      <class name="com.jobma.qa.test.JobmaDashboardTest">
+        <methods>
+          <include name="clickOnCreditsBtnTest"/>
+          <include name="Close"/>
+          <include name="SettingsTest"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.JobmaDashboardTest -->
+      <class name="com.jobma.qa.test.InterviewKitListingTest">
+        <methods>
+          <include name="clickonpredefinedInterviewKitTest"/>
+          <include name="setup"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.InterviewKitListingTest -->
+      <class name="com.jobma.qa.test.PostAJobTest">
+        <methods>
+          <include name="jobPostingWithAdditionalDetailsTest"/>
+          <include name="Close"/>
+          <include name="setup"/>
+          <include name="validationMessageOnjobdescfieldTest"/>
+          <include name="postingJObTest"/>
+          <include name="validationMessageOnInterviewkitfieldTest"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.PostAJobTest -->
+    </classes>
+  </test> <!-- JObmaWebTesting(failed) -->
+</suite> <!-- Failed suite [jobma automation test suite] -->

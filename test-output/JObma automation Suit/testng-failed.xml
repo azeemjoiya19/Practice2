@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JObma automation Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Hamburger menu modules Test(failed)">
+    <classes>
+      <class name="com.jobma.qa.test.PositionsPageTest">
+        <methods>
+          <include name="clickOnAddMoreAboutPositionTest"/>
+          <include name="setup"/>
+          <include name="jobConfigurationPageDisplayTest"/>
+          <include name="Close"/>
+          <include name="cloneJobTest"/>
+          <include name="setConfigurationTest"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.PositionsPageTest -->
+      <class name="com.jobma.qa.test.SubAccountTest">
+        <methods>
+          <include name="verifySubAccountPageTest"/>
+          <include name="close"/>
+          <include name="companyProfilePermissionDeniedTest"/>
+          <include name="inviteCandidatePermissionDeniedTest"/>
+          <include name="Setup"/>
+          <include name="permissionBtnTest"/>
+          <include name="interviewListingPermissionDeniedTest"/>
+          <include name="manageSubaccountPermissionDeniedTest"/>
+          <include name="integrationPermissionDeniedTest"/>
+          <include name="permissionDeniedEvaluateCandidateTest"/>
+          <include name="addSubUserTest"/>
+        </methods>
+      </class> <!-- com.jobma.qa.test.SubAccountTest -->
+    </classes>
+  </test> <!-- Hamburger menu modules Test(failed) -->
+</suite> <!-- Failed suite [JObma automation Suit] -->
